@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Raleway:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;900&display=swap');
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
@@ -18,18 +18,21 @@ h1 {
   color: rgba(64, 78, 77, 1);
   font-size: 32px;
   font-weight: 700;
+  margin-top: 0px;
 }
 h2 {
   color: rgba(134, 22, 87, 1);
   font-size: 20px;
   font-weight: lighter;
   font-weight: 700;
+  margin-top: 0px;
 }
 a {
   text-decoration: none;
   color: rgba(58, 124, 165, 1);
   font-weight: 600;
   font-size: 16px;
+  display: inline-block;
 }
 a:hover {
   color: rgba(180, 67, 108, 1);
@@ -76,6 +79,7 @@ a:hover {
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
+  margin-top: 8px;
 }
 .btn-gray:hover {
   background-color: rgba(134, 22, 87, 1);

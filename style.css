@@ -93,7 +93,7 @@ a:hover {
 }
 .list-inline i {
   font-size: 50px;
-  color: rgba(64, 78, 77, 1);
+  color: rgb(230, 230, 230);
 }
 .list-inline i:hover {
   color: rgba(134, 22, 87, 1);

@@ -72,7 +72,7 @@ a:hover {
   border-radius: 15px;
 }
 .btn-gray {
-  background-color: rgba(64, 78, 77, 1);
+  background-color: rgb(230, 230, 230);
   color: white;
   padding: 15px 20px;
   border-radius: 4px;

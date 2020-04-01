@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;900&display=swap');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+/* Colors and fonts */
+body {
+  background: rgba(208, 204, 208, 1);
+  color: rgba(134, 22, 87, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+
+}
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  color: rgba(64, 78, 77, 1);
+  font-size: 32px;
+  font-weight: 700;
+}
+h2 {
+  color: rgba(134, 22, 87, 1);
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+  color: rgba(58, 124, 165, 1);
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: rgba(180, 67, 108, 1);
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-roundrec {
+  border-radius: 15px;
+}
+.btn-gray {
+  background-color: rgba(64, 78, 77, 1);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-gray:hover {
+  background-color: rgba(134, 22, 87, 1);
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgba(64, 78, 77, 1);
+}
+.list-inline i:hover {
+  color: rgba(134, 22, 87, 1);
+}
+
